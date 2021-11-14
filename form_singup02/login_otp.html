@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title> OTP </title>
+
+
+    <style>
+        body{
+            background-image: url('back03.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .sign-up-form{
+            
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+            background: rgb(245, 245, 245);
+            padding: 20px;
+            margin: 18% 25%;
+            text-align: center;
+
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    <div class="sign-up-form">
+        <form>
+            <label for="fname">
+                <b>First Name : </b>
+                <input type="text" class="fname" placeholder="Web"><br><br>
+            </label>
+            <label for="lname">
+                <b>Last Name : </b>
+                <input type="text" class="lname" placeholder="Dev"><br><br>
+            </label>
+            <label for="DOB">
+                <b>Date Of Birth : </b>
+                <input type="date" class="DOB" placeholder="01-01-2021"><br><br>
+                <!-- <input type="text" placeholder="01/01/2021"
+                onfocus="(this.type='date')"
+                onblur="(this.type='text')"> -->
+            </label>
+            <label for="gender">
+                <b>Gender : </b>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male"><b>Male</b></label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female"><b>Female</b></label><br><br>
+                
+            </label>
+            <label for="email">
+                <b>E-mail : </b>
+                <input type="email" id="email" placeholder="webdev@gmail.com"><br><br>
+            </label>
+            <label for="button">
+                <input type="button" id="button" value="SUBMIT">
+
+            </label>
+
+
+        </form>
+
+    </div>
+</body>
