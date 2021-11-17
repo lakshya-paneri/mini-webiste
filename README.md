@@ -1,5 +1,5 @@
 # Hello contributors
-In this mini-webiste you sholud work on 2 file you can also connect this 2 file as your preference 
+In this mini-webiste you should work on 2 file you can also connect this 2 file as your preference 
 # Improve code 
 # Improve UI/CSS
 _________________________________
